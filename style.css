@@ -144,14 +144,12 @@ main p { margin: 12px 0; }
 
 .video {
   position: relative;
-  width: 100vw;
-  left: 50%;
-  margin-left: -50vw;
+  width: 100%;
   aspect-ratio: 16 / 9;
-  margin-top: 16px;
-  margin-bottom: 32px;
+  margin: 16px 0 32px;
   overflow: hidden;
   background: #000;
+  border-radius: 6px;
 }
 
 .video iframe {
