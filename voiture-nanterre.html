@@ -4,26 +4,45 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>En voiture depuis Nanterre - Accès Vision 80</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>Accès Vision 80</h1>
-  <p class="subtitle">🚶 5 terrasse des reflets, 92400 Courbevoie<br>🚗 52 voie des Bâtisseurs, 92400 Courbevoie</p>
-  <nav>
-    <a href="index.html">Accueil</a>
-    <a href="metro.html">Métro</a>
-    <a href="voiture-paris.html">Voiture Paris</a>
-    <a href="voiture-puteaux.html">Voiture Puteaux</a>
-    <a href="voiture-nanterre.html" class="active">Voiture Nanterre</a>
-  </nav>
+<header class="site-header">
+  <div class="site-header-inner">
+    <h1 class="site-title">
+      <a href="index.html">Vision 80</a>
+      <span class="badge">Paris La Défense</span>
+    </h1>
+    <nav class="tabs">
+      <a href="index.html">Accueil</a>
+      <a href="metro.html">Métro</a>
+      <a href="voiture-paris.html">Voiture depuis Paris</a>
+      <a href="voiture-puteaux.html">Puteaux</a>
+      <a href="voiture-nanterre.html" class="active">Nanterre</a>
+    </nav>
+  </div>
 </header>
 
-<main>
-  <h2>En voiture depuis Nanterre</h2>
+<div class="container">
+
+  <h1 class="page-title">En voiture depuis Nanterre</h1>
 
   <p>Depuis Nanterre, vous passez sans doute par le boulevard circulaire.</p>
+
+  <div class="addresses">
+    <a class="address-card" href="https://maps.google.com/?q=52+Voie+des+B%C3%A2tisseurs,+92400+Courbevoie" target="_blank" rel="noopener">
+      <span class="icon">🛣️</span>
+      <span class="info">
+        <span class="label">Destination</span>
+        <span class="value">52 Voie des Bâtisseurs, 92400 Courbevoie</span>
+      </span>
+      <span class="arrow">→</span>
+    </a>
+  </div>
 
   <ol class="steps">
     <li>
@@ -41,11 +60,12 @@
   </ol>
 
   <div class="note">
-    Ensuite, prenez la Voie des Bâtisseurs pour arriver au 52.
+    <strong>Ensuite</strong> : prenez la Voie des Bâtisseurs pour arriver au 52.
   </div>
-</main>
 
-<footer>
+</div>
+
+<footer class="site-footer">
   <address>Vision 80, 5 Terrasse des reflets, 92400 Courbevoie</address>
 </footer>
 
