@@ -144,12 +144,13 @@ main p { margin: 12px 0; }
 
 .video {
   position: relative;
-  width: 100%;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
   aspect-ratio: 16 / 9;
-  margin: 16px 0 32px;
-  border-radius: 6px;
+  margin-top: 16px;
+  margin-bottom: 32px;
   overflow: hidden;
-  border: 1px solid #ddd;
   background: #000;
 }
 
