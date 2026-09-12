@@ -280,6 +280,19 @@ p { margin: 12px 0; }
   padding: 0 2px;
 }
 
+/* Photo d'ouverture : cadree en bandeau pour ne pas manger l'ecran.
+   A ne pas appliquer aux cartes ni aux photos d'itineraire, qui doivent
+   rester entieres sous peine de perdre l'information. */
+.figure--hero img {
+  max-height: 360px;
+  object-fit: cover;
+  object-position: center 45%;
+}
+
+@media (max-width: 600px) {
+  .figure--hero img { max-height: 240px; }
+}
+
 /* ---------- Video ---------- */
 .video {
   position: relative;
