@@ -359,6 +359,20 @@ p { margin: 12px 0; }
   border-radius: 6px;
 }
 
+/* ---------- Liens de bas de section ---------- */
+.links {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 20px;
+}
+
+.links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.links a:hover { text-decoration: underline; }
+
 /* ---------- Note ---------- */
 .note {
   background: var(--warn-bg);
